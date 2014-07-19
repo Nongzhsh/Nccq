@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>NNCQ管理信息系统</title>
+    @Styles.Render("~/metroCss")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/metroScript")
+</head>
+<body class="metro" style="font-family:'Microsoft YaHei UI'">
+    <div>
+        @RenderBody()
+    </div>
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>
